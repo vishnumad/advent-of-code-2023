@@ -1,6 +1,6 @@
 package day03
 
-import readInput
+import readLines
 
 typealias Gear = Pair<Int, Int>
 
@@ -93,7 +93,7 @@ fun main() {
         return gearMap.values.sumOf { if (it.size == 2) it[0] * it[1] else 0 }
     }
 
-    val input = readInput("day03/input")
+    val input = readLines("day03/test")
     println("Part 1: ${part1(input)}")
     println("Part 2: ${part2(input)}")
 }

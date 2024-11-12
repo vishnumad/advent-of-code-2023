@@ -1,6 +1,6 @@
 package day01
 
-import readInput
+import readLines
 
 fun main() {
 
@@ -50,7 +50,7 @@ fun main() {
         }
     }
 
-    val input = readInput("day01/input")
+    val input = readLines("day01/input")
     println("Part 1: ${part1(input)}")
     println("Part 2: ${part2(input)}")
 }

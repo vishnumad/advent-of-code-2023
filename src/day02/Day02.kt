@@ -1,6 +1,6 @@
 package day02
 
-import readInput
+import readLines
 
 fun main() {
 
@@ -74,7 +74,7 @@ fun main() {
         return games.sumOf { it.power }
     }
 
-    val input = readInput("day02/input")
+    val input = readLines("day02/test")
     println("Part 1: ${part1(input)}")
     println("Part 2: ${part2(input)}")
 }

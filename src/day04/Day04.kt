@@ -1,6 +1,6 @@
 package day04
 
-import readInput
+import readLines
 import kotlin.math.pow
 
 fun main() {
@@ -43,7 +43,7 @@ fun main() {
         return copies.values.sum()
     }
 
-    val input = readInput("day04/input")
+    val input = readLines("day04/test")
     println("Part 1: ${part1(input)}")
     println("Part 2: ${part2(input)}")
 }
